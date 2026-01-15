@@ -1,0 +1,17 @@
+food_service:
+  vat_rate: 0.025
+  pit_rate: 0.015
+  license_fee: 1000000
+  threshold: 100000000
+
+retail:
+  vat_rate: 0.02
+  pit_rate: 0.01
+  license_fee: 1000000
+  threshold: 100000000
+
+service:
+  vat_rate: 0.03
+  pit_rate: 0.02
+  license_fee: 1000000
+  threshold: 100000000
