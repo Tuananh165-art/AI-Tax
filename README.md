@@ -7,9 +7,7 @@ Hệ thống AI hỗ trợ hộ kinh doanh cá thể tính thuế, quản lý ch
 ```
 AI-Tax/
 ├── backend/          # Backend API (FastAPI)
-├── frontend-react/   # Web App (ReactJS)
-├── frontend-mobile/  # Mobile App (React Native)
-├── docs/            # Tài liệu
+├── frontend/   # Web App (ReactJS)
 └── prompt.md        # Tài liệu thiết kế hệ thống
 ```
 
@@ -110,7 +108,6 @@ MIT
 ### Tính năng mới
 ✅ Hỏi đáp về luật thuế VN
 ✅ Tư vấn cá nhân hóa theo doanh thu
-✅ RAG với ChromaDB
 ✅ Knowledge base luật thuế
 
 ### Cài đặt Chatbot
@@ -144,8 +141,6 @@ python test_chatbot.py
 - "Khi nào phải dùng hóa đơn điện tử?"
 - "Chậm nộp thuế bị phạt thế nào?"
 
-Xem thêm: [docs/CHATBOT.md](docs/CHATBOT.md)
-
 ## Frontend (Phase 3)
 
 ### 🌐 Web App (ReactJS)
@@ -164,20 +159,6 @@ npm start
 
 App chạy tại: http://localhost:3000
 
-### 📱 Mobile App (React Native)
-
-**Cài đặt:**
-```bash
-setup-react-native.bat
-```
-
-Hoặc thủ công:
-```bash
-cd frontend-mobile
-npm install
-npx expo start
-```
-
 **Lưu ý:** Sửa API_URL trong `api.js` với IP máy tính của bạn.
 
 ### Tính năng Frontend
@@ -187,6 +168,3 @@ npx expo start
 - 🧮 Tính thuế
 - 📊 Báo cáo tài chính
 - 💬 Chatbot tư vấn
-- 📱 Cross-platform (iOS/Android)
-
-Xem thêm: [docs/FRONTEND.md](docs/FRONTEND.md)
